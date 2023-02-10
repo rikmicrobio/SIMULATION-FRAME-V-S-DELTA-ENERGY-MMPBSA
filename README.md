@@ -4,4 +4,5 @@ This code is creating a bar chart of the data contained in the data.csv file. Th
 The color of each bar is set based on the ∆E Binding (KJ/mol) value, with the color parameter set to this column. The color gradient used is set with the color_continuous_scale parameter to px.colors.sequential.Plasma. The range_color parameter sets the range of the color gradient to be between -150 and 100.
 
 The chart is then updated with additional information using the update_layout function, such as x and y axis labels, title, and background color, which is set to white using the plot_bgcolor parameter. Finally, the chart is displayed using the show function.
+![newplot(6)](https://user-images.githubusercontent.com/45164491/218055650-a40e2163-bf9e-4b04-ae3d-c0ddbfc53885.png)
 
